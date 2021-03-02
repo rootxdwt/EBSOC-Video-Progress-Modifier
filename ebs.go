@@ -12,7 +12,7 @@ import (
 )
 
 func main() {
-	
+	//important variables
 	var userid int
 	fmt.Println("input user id: ")
 	fmt.Scanf("%i", &userid)
@@ -39,7 +39,7 @@ func main() {
 		block, _ := aes.NewCipher([]byte("l40jsfljasln32uf"))
 		md := cipher.NewCBCEncrypter(block, []byte("asjfknal3bafjl23"))
 		store := make([]byte, len(formatted))
-		
+		//32
 		md.CryptBlocks(store, formatted)
 		b := base64.URLEncoding.EncodeToString(store)
 
