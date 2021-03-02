@@ -15,19 +15,19 @@ func main() {
 	
 	var userid int
 	fmt.Println("input user id: ")
-	fmt.Scanln(&userid)
+	fmt.Scanf("%i", &userid)
 
 	fmt.Println("input video id: ")
 	var videoid int
-	fmt.Scanln(&videoid)
+	fmt.Scanf("%i", &videoid)
 
 	fmt.Println("input progress: ")
 	var progress int
-	fmt.Scanln(&progress)
+	fmt.Scanln("%i", &progress)
 
 	fmt.Println("input token: ")
 	var token string
-	fmt.Scanln(&token)
+	fmt.Scanln("%s", &token)
 
 	for i := 0; i < progress+1; i++ {
 		formatted := []byte(strconv.Itoa(userid) + "|" + strconv.Itoa(videoid) + "|" + strconv.Itoa(i))
