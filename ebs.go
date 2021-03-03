@@ -19,14 +19,14 @@ func main() {
 	var progress int
 	var token, userid, videoid string
 	reader := bufio.NewReader(os.Stdin)
-	fmt.Print("Enter text: ")
+	fmt.Println("Enter text: ")
 	text, _ := reader.ReadString('\n')
 	text2 := strings.Split(text, "|")
 	userid = text2[0]
 	token = text2[1]
 	videoid = text2[2]
 	progress, _ = strconv.Atoi(strings.TrimSuffix(text2[3], "\r\n"))
-	fmt.Println(progress)
+
 	for i := 0; i < progress+1; i++ {
 		formatted := []byte(userid + "|" + videoid + "|" + strconv.Itoa(i))
 
