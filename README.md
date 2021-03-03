@@ -22,9 +22,6 @@ EBS 온라인클래스의 영상 진행상태를 원하는 숫자로 설정할 �
 
 > EN
 
-https://github.com/rootxdwt/EBSOC-Video-Progress-Modifier/releases/
-
-
 0. Download `ebs.exe` from the [latest release](https://github.com/rootxdwt/EBSOC-Video-Progress-Modifier/releases/).
 1. go to the target video in ebs online class
 2. right-click the video and click `Inspect`
