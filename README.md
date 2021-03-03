@@ -22,6 +22,9 @@ EBS 온라인클래스의 영상 진행상태를 원하는 숫자로 설정할 �
 
 > EN
 
+![image](https://user-images.githubusercontent.com/65634206/109817048-c9493200-7c74-11eb-8ceb-b24967d33317.png)
+
+
 0. Download `ebs.exe` from the latest Release.
 1. go to the target video in ebs online class
 2. right-click the video and click `Inspect`
@@ -31,6 +34,8 @@ EBS 온라인클래스의 영상 진행상태를 원하는 숫자로 설정할 �
 6. the program will close itself when everything is done
 
 > KR
+
+![image](https://user-images.githubusercontent.com/65634206/109817041-c77f6e80-7c74-11eb-9747-47f97a74326c.png)
 
 0. 최신 릴리즈에서 `ebs.exe`를 다운받아주세요.
 1. 조작하고 싶은 영상으로 이동해주세요.
