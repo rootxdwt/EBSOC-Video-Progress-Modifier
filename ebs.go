@@ -27,7 +27,7 @@ func main() {
 	videoid = text2[2]
 	progress, _ = strconv.Atoi(text2[3])
 
-	for i := 0; i < progress+1; i++ {
+	for i := 0; progress >= i; i++ {
 		formatted := []byte(userid + "|" + videoid + "|" + strconv.Itoa(i))
 
 		for (len(formatted) % 16) != 0 {
@@ -50,6 +50,7 @@ func main() {
 		req.Header.Add("Content-Type", "application/json;charset=UTF-8")
 		resp, _ := client.Do(req)
 		f, _ := ioutil.ReadAll(resp.Body)
+		defer resp.Body.Close()
 		fmt.Println(string(f))
 	}
 }
