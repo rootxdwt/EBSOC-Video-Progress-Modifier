@@ -8,19 +8,19 @@ EBS 온라인클래스의 영상 진행상태를 원하는 숫자로 설정할 �
 
 # Notice
 
-> En
+> EN
 
 - this program is built for windows 10. if you are not using windows 10, download the source( `ebs.go` ) and compile it in your OS.
 - this program is made only for education purpose. we are not responsible for any malicious usage.
 
-> Kr
+> KR
 
 - 이 프로그램은 윈도우 10 전용으로 제작되었습니다. 다른 운영체제를 사용중이사라면 소스( `ebs.go` )를 다운받으시고 다시 컴파일해 사용해 주세요.
 - 이 프로그램은 교육적인 용도로 제작되었습니다.
 
 # Instruction
 
-> En
+> EN
 
 1. go to the target video in ebs online class
 2. right-click the video and click `Inspect`
@@ -29,7 +29,7 @@ EBS 온라인클래스의 영상 진행상태를 원하는 숫자로 설정할 �
 5. copy the output and paste it in `ebs.exe` 
 6. the program will close itself when everything is done
 
-> Kr
+> KR
 
 1. 조작하고 싶은 영상으로 이동해주세요.
 2. 영상을 우클릭하시고 `검사` 를 클릭하세요.
