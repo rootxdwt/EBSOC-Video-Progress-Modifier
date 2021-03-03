@@ -16,14 +16,14 @@ EBS 온라인클래스의 영상 진행상태를 원하는 숫자로 설정할 �
 ---------
 1. go to the target video in ebs online class
 2. right-click the video and click `Inspect`
-3. in the developer tools, scroll down and find the <script></script> tag (without any src attribute) and click it
+3. in the developer tools, scroll down and find the `<script></script>` tag (without any src attribute) and click it
 4. click the `Console` tab and paste the content of `paste.js` 
 5. copy the output and paste it in `ebs.exe` 
 6. the program will close itself when everything is done
 -----------
 1. 조작하고 싶은 영상으로 이동해주세요.
 2. 영상을 우클릭하시고 `검사` 를 클릭하세요.
-3. `검사` 를 눌렀을때 나오는 개발자도구에서 스크롤을 내려 <script></script> 태그(src 속성이 없는) 를 찾고 클릭하세요.
+3. `검사` 를 눌렀을때 나오는 개발자도구에서 스크롤을 내려 `<script></script>` 태그(src 속성이 없는) 를 찾고 클릭하세요.
 4. 하단 `Console` 탭을 클릭하시고 `paste.js`의 내용을 붙여넣으세요.
 5. 결과를 복사하시고 다운받으신 `ebs.exe`에 붙여넣으세요.
 6. 모든 것이 끝나면, 프로그램이 자동으로 종료됩니다.
