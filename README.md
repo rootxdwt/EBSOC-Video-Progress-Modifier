@@ -11,7 +11,7 @@ EBS 온라인클래스의 영상 진행상태를 원하는 숫자로 설정할 �
 > EN
 
 - this program is built for windows 10. if you are not using windows 10, download the source( `ebs.go` ) and compile it in your OS.
-- this program is made only for education purpose. we are not responsible for any malicious usage.
+- this program is made only for educational purpose. we are not responsible for any malicious usage.
 
 > KR
 
