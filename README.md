@@ -24,7 +24,7 @@ EBS 온라인클래스의 영상 진행상태를 원하는 숫자로 설정할 �
 
 1. go to the target video in ebs online class
 2. right-click the video and click `Inspect`
-3. in the developer tools, scroll down and find the `<script></script>` tag (without any src attribute) and click it
+3. in the developer tool, scroll down and find the `<script></script>` tag (without any src attribute) and click it
 4. click the `Console` tab and paste the content of `paste.js` 
 5. copy the output and paste it in `ebs.exe` 
 6. the program will close itself when everything is done
