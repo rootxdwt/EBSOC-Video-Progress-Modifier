@@ -21,6 +21,8 @@ EBS 온라인클래스의 영상 진행상태를 원하는 숫자로 설정할 �
 5. copy the output and paste it in ```ebs.exe``` 
 6. the program will close itself when everything is done
 
+
+
 1. 조작하고 싶은 영상으로 이동해주세요.
 2. 영상을 우클릭하시고 ```검사``` 를 클릭하세요.
 3. ```검사``` 를 눌렀을때 나오는 개발자도구에서 스크롤을 내려 <script></script> 태그(src 속성이 없는) 를 찾고 클릭하세요.
