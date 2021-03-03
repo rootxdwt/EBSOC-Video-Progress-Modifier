@@ -19,7 +19,7 @@ func main() {
 	var progress int
 	var token, userid, videoid string
 	reader := bufio.NewReader(os.Stdin)
-	fmt.Print("Enter text: ")
+	fmt.Println("Enter text: ")
 	text, _ := reader.ReadString('\n')
 	text2 := strings.Split(strings.TrimSpace(text), "|")
 	userid = text2[0]
