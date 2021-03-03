@@ -1,3 +1,10 @@
+//important variables
+
+//userid := 8794402                                                                                                                                                                                                                                                                //input the value of "memberSeq" in your cookie(int)
+//videoid := 374                                                                                                                                                                                                                                                                   //insert videoid here (4 digits int)
+//progress := 100                                                                                                                                                                                                                                                                  // any number you want(int between 0-100)
+//token := "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJPbmxpbmUgQ2xhc3MiLCJtZW1iZXJOYW1lIjoi7Jik7J2A7LSdIiwibWVtYmVyU2Nob29sQ29kZSI6Ik0wNjI2MyIsImV4cCI6MTYxNDk0NDk0NywiaWF0IjoxNjE0Njg1NzQ3LCJtZW1iZXJJZCI6InN0YXJ3YXJzOTM5NSJ9.kgnKNWwu2aDzxu4XSpknKxVPkoAwAfQG58qlHWXzvhw" //input the value of "access" in your cookie(string)
+
 package main
 
 import (
@@ -13,21 +20,10 @@ import (
 
 func main() {
 	//important variables
-	var userid int
-	fmt.Println("input user id: ")
-	fmt.Scanln(&userid)
-
-	fmt.Println("input video id: ")
-	var videoid int
-	fmt.Scanln(&videoid)
-
-	fmt.Println("input progress: ")
-	var progress int
-	fmt.Scanln(&progress)
-
-	fmt.Println("input token: ")
+	var userid, videoid, progress int
 	var token string
-	fmt.Scanln(&token)
+	fmt.Println("input key: ")
+	fmt.Scanf("%s|%s|%s|%s", &userid, &token, &videoid, &progress)
 
 	for i := 0; i < progress+1; i++ {
 		formatted := []byte(strconv.Itoa(userid) + "|" + strconv.Itoa(videoid) + "|" + strconv.Itoa(i))
