@@ -1,6 +1,6 @@
 //paste this code into the ebs console
 
-`${getCookie("memberSeq")}|${getCookie("access")}|${getParam("lctreLrnSqno")}|${"100"}`
+`${getCookie("memberSeq")}|${getCookie("access")}|${getParam("lctreLrnSqno")}|${"100"}|${getCookie("host")}`
 
 //it will show you a long string. paste it into the program.
 //if you want to use a different progress, modify the "100" to a number you want
