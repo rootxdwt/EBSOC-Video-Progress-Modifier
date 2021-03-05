@@ -25,7 +25,7 @@ func main() {
 	userid = text2[0]
 	token = text2[1]
 	videoid = text2[2]
-	progress, _ = strconv.Atoi(text2[3])
+	progress, _ = strconv.Atoi(text2[4])
 
 	for i := 0; progress >= i; i++ {
 		formatted := []byte(userid + "|" + videoid + "|" + strconv.Itoa(i))
@@ -45,7 +45,7 @@ func main() {
 		s := bytes.NewBuffer(q)
 
 		client := &http.Client{}
-		req, _ := http.NewRequest("POST", "https://kyg4.ebsoc.co.kr/lecture/api/v1/student/learning/"+videoid+"/progress", s)
+		req, _ := http.NewRequest("POST", "https://"+text2[3]+".ebsoc.co.kr/lecture/api/v1/student/learning/"+videoid+"/progress", s)
 		req.Header.Add("X-AUTH-TOKEN", token)
 		req.Header.Add("Content-Type", "application/json;charset=UTF-8")
 		resp, _ := client.Do(req)
