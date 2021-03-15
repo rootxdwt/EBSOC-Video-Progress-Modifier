@@ -44,8 +44,13 @@ func main() {
 		req.Header.Add("X-AUTH-TOKEN", text2[1])
 		req.Header.Add("Content-Type", "application/json;charset=UTF-8")
 		resp, _ := client.Do(req)
-		f, _ := ioutil.ReadAll(resp.Body)
-		defer resp.Body.Close()
-		fmt.Println(string(f))
+		if resp != nil {
+			f, _ := ioutil.ReadAll(resp.Body)
+			defer resp.Body.Close()
+			fmt.Println(string(f))
+		} else {
+			fmt.Println("no response body")
+		}
+
 	}
 }
