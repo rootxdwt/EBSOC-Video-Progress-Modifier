@@ -15,7 +15,7 @@ import (
 )
 
 func main() {
-	//important variables
+
 	reader := bufio.NewReader(os.Stdin)
 	fmt.Println("Enter text: ")
 	text, _ := reader.ReadString('\n')
